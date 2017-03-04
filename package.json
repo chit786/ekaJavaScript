@@ -1,0 +1,30 @@
+{
+  "name": "ekaJavaScript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "To demostrate protractor cucumber tests for angular/non angular apps with allure report framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config/config.js",
+	"update" : "webdriver-manager update",
+    "start": "webdriver-manager start"
+  },
+  "author": "Chitrang Natu <chit786@gmail.com>",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^1.3.1",
+    "protractor": "^5.0.0",
+    "protractor-cucumber-framework": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^5.3.0",
+    "cucumber-html-report": "^0.5.1",
+    "cucumber-html-reporter": "^0.2.6",
+    "cucumberjs-allure-reporter": "^1.0.2",
+    "pg": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chit786/ekaJavaScript"
+  }
+}
