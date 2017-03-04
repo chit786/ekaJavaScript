@@ -35,7 +35,7 @@ exports.config = {
         strict: true,
         format: ['pretty'],
         require: ['../stepDefinitions/*.js', '../support/*.js'],
-        tags: '@home,@edit,@add' // @DatabaseTest scenario can be included when the username & password of DB have been configured in Support/database.js
+        tags: '@home,@edit,@add' 
 
     }
 };
